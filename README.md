@@ -1,5 +1,4 @@
 # (NeurIPS 2025) MLLM-ISU: The First-Ever Comprehensive Benchmark for Multimodal Large Language Models based Intrusion Scene Understanding
---
 # Introduction
 
 Vision-based intrusion detection has multiple applications in practical scenarios, e.g., autonomous driving, intelligent monitoring, and security. Previous works
