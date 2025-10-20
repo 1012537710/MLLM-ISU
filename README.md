@@ -1,4 +1,4 @@
-# MLLM-ISU
+# (NeurIPS 2025) MLLM-ISU
 The First-Ever Comprehensive Benchmark for Multimodal Large Language Models based Intrusion Scene Understanding
 --
 # Introduction
