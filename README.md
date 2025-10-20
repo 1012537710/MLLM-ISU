@@ -2,6 +2,7 @@
 The First-Ever Comprehensive Benchmark for Multimodal Large Language Models based Intrusion Scene Understanding
 --
 **Introduction**
+
 Vision-based intrusion detection has multiple applications in practical scenarios, e.g., autonomous driving, intelligent monitoring, and security. Previous works
 mainly focus on improving the intrusion detection performance, without a comprehensive and in-depth understanding of the intrusion scene. To fill this gap, we
 explore a novel task called Multimodal Large Language Models based Intrusion Scene Understanding (MLLM-ISU) and report a comprehensive benchmark for the
