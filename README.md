@@ -16,6 +16,17 @@ Vision-based intrusion detection has multiple applications in practical scenario
 * **Comprehensive Evaluation**: Benchmarking 10+ state-of-the-art MLLMs (e.g., Qwen2.5-VL, InternVL2) using their official implementations.
 * **Real-world Scenarios**: Covering diverse intrusion cases with high-quality multimodal data.
 
+## 🚀 Reproducibility
+
+To ensure the reproducibility of the results reported in our paper, we provide standardized evaluation scripts for each MLLM. Our testing environment is based on [**[**ModelScope**]**](https://modelscope.cn/home).
+
+### 1. Environment Setup
+```bash
+conda create -n mllm-isu python=3.10 -y
+conda activate mllm-isu
+pip install modelscope  # 以及其他核心依赖
+
+
 ## 📝 Citation
 
 If you find our work or dataset helpful, please consider citing:
