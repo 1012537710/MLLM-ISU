@@ -14,4 +14,4 @@
 # 正确激活conda环境
 source $(conda info --base)/etc/profile.d/conda.sh  # source ~/miniconda3/etc/profile.d/conda.sh
 conda activate kimi
-python /home/bingxing2/ailab/scxlab0016/yepeng/predict_kimivl.py
+python your_path/predict_kimivl.py
