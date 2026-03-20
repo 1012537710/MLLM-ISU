@@ -103,8 +103,8 @@ if __name__ == "__main__":
     input_file = "/home/bingxing2/ailab/scxlab0016/yepeng/LLaMA-Factory/data/mllm_demo_eval_ISD.json"
     
     model_variants = {
-        "instruct": "/home/bingxing2/ailab/scxlab0016/.cache/modelscope/hub/models/moonshotai/Kimi-VL-A3B-Instruct",
-        #"thinking": "/home/bingxing2/ailab/scxlab0016/.cache/modelscope/hub/models/moonshotai/Kimi-VL-A3B-Thinking"
+        "instruct": "your_instruct_model_path",
+        #"thinking": "your_thinking_model_path"
     }
 
     for name, path in model_variants.items():
