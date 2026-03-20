@@ -13,7 +13,7 @@ Vision-based intrusion detection has multiple applications in practical scenario
 
 ## 🌟 Highlights
 * **First-Ever Benchmark**: Specifically designed for **Intrusion Scene Understanding (ISU)** in complex environments.
-* **Comprehensive Evaluation**: Benchmarking 10+ state-of-the-art MLLMs (e.g., Qwen2.5-VL, InternVL2) using their official implementations.
+* **Comprehensive Evaluation**: Benchmarking 10+ state-of-the-art MLLMs (e.g., DeepSeek-VL2, GPT-4o, Qwen2.5-VL) using their official implementations.
 * **Real-world Scenarios**: Covering diverse intrusion cases with high-quality multimodal data.
 
 
