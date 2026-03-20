@@ -84,7 +84,7 @@ def batch_process_json_file(model, processor, input_file, output_file):
             print(f"[Error] Sample #{idx} failed: {e}")
             traceback.print_exc()
 
-# ========== 主程序入口 ==========
+# ========== Main ==========
 if __name__ == "__main__":
     input_file = "dataset_path.json"
     
