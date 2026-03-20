@@ -1,17 +1,3 @@
-"""
-自己一个人一个环境
-安装依赖包
-conda create -n kimi python=3.10 -y
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchvision transformers modelscope accelerate
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tiktoken
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple blobfile protobuf
-
-# #pip install torch torchvision transformers modelscope accelerate -i https://pypi.tuna.tsinghua.edu.cn/simple
-# pip install tiktoken -i https://pypi.tuna.tsinghua.edu.cn/simple
-# pip install blobfile protobuf -i https://pypi.tuna.tsinghua.edu.cn/simple
-"""
-
-
 import os
 import json
 import torch
