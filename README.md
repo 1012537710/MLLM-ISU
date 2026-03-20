@@ -16,16 +16,51 @@ Vision-based intrusion detection has multiple applications in practical scenario
 * **Comprehensive Evaluation**: Benchmarking 10+ state-of-the-art MLLMs (e.g., Qwen2.5-VL, InternVL2) using their official implementations.
 * **Real-world Scenarios**: Covering diverse intrusion cases with high-quality multimodal data.
 
-## 🚀 Reproducibility
 
-To ensure the reproducibility of the results reported in our paper, we provide standardized evaluation scripts for each MLLM. Our testing environment is based on [**[**ModelScope**]**](https://modelscope.cn/home).
+## 🚀 Quick Start
 
-### 1. Environment Setup
-```bash
+We provide a step-by-step guide to help you reproduce the evaluation results for MLLM-ISU. Here, we use Kimi-VL as a primary example. Our testing environment is based on [**[**ModelScope**]**](https://modelscope.cn/home).
+
+# S1. Environment Setup
+
+First, create a clean Conda environment and install the necessary dependencies as specified in requirements.txt.
+
+1. Create a new conda environment
+```
 conda create -n mllm-isu python=3.10 -y
-conda activate mllm-isu
-pip install modelscope  # 以及其他核心依赖
+```
 
+2. Activate the environment
+```
+conda activate mllm-isu
+```
+
+3. Install dependencies using TUNA mirror for faster download
+```
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+# S2. Model Weight Preparation
+
+1. Install modelscope
+```
+pip install modelscope
+```
+
+2. Download
+
+```
+modelscope download --model moonshotai/Kimi-VL-A3B-Instruct
+```
+
+# S3. Running Inference
+
+To reproduce our results on a Slurm cluster, use the provided submission script:
+
+```
+# Submit the job with 4 GPUs
+sbatch -N 1 --gres=gpu:4 -p vip_gpu_ailab -A ai4bio run_original_model_kimi.sh
+```
 
 ## 📝 Citation
 
