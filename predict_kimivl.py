@@ -86,7 +86,7 @@ def batch_process_json_file(model, processor, input_file, output_file):
 
 # ========== 主程序入口 ==========
 if __name__ == "__main__":
-    input_file = "/home/bingxing2/ailab/scxlab0016/yepeng/LLaMA-Factory/data/mllm_demo_eval_ISD.json"
+    input_file = "dataset_path.json"
     
     model_variants = {
         "instruct": "your_instruct_model_path",
