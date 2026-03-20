@@ -6,6 +6,8 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoProcessor
 import traceback
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
+
 # ========== 模型加载 ========== 
 def load_model_and_processor(model_path):
     model = AutoModelForCausalLM.from_pretrained(
