@@ -13,5 +13,5 @@
 # conda list
 # 正确激活conda环境
 source $(conda info --base)/etc/profile.d/conda.sh  # source ~/miniconda3/etc/profile.d/conda.sh
-conda activate kimi
+conda activate mllm-isu
 python your_path/predict_kimivl.py
